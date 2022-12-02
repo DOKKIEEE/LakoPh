@@ -39,7 +39,7 @@ submitBtn.addEventListener("click", submitButton);
         passError.style.color = "red";
         password.style.boxShadow = "1px -2px 2px 2px red, -2px 2px 2px 2px red ";
      }
-     else if (userName.value != "username") {
+     else if (userName.value != "user") {
         userError.style.display = "block";
         userError.innerHTML = "Check Username";
         userError.style.color = "red";
@@ -51,7 +51,7 @@ submitBtn.addEventListener("click", submitButton);
         passError.style.color = "red";
         password.style.boxShadow = "1px -2px 2px 2px red, -2px 2px 2px 2px red ";
      }
-     else if (userName.value != "username" && password.value != 1234) {
+     else if (userName.value != "user" && password.value != 1234) {
         userError.style.display = "block";
         userError.innerHTML = "Check Username";
         userError.style.color = "red";
@@ -61,8 +61,8 @@ submitBtn.addEventListener("click", submitButton);
         passError.style.color = "red";
         password.style.boxShadow = "1px -2px 2px 2px red, -2px 2px 2px 2px red ";
      }
-     else if(userName.value == "username" && password.value == 1234){
-        window.location.href = "https://kodego.ph/";
+     else if(userName.value == "user" && password.value == 1234){
+        window.location.href = "https://dokkieee.github.io/LakoPh/userInterface.html";
      }
      
  }
