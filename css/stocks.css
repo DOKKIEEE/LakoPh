@@ -1,15 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&display=swap'); 
+
+body {
+    letter-spacing: .4mm;
+}
+
 .container-fluid {
     height: 100vh;
     background-color: #2b6777;
 }
 
-
 .invHeader {
     height: 10vh;
     font-family: 'Bebas Neue', cursive;
     font-size: 50px !important;
+    text-shadow: 0 0 10px #52ab98;
+    letter-spacing: .5mm;
 }
 
 .invHeader p {
@@ -17,11 +23,19 @@
 }
 
 .backBtn {
+    font-size: 20px;
     background-color: #2b6777;
     border-width: 3px;
     border-color: #c8d8e4;
     border-radius: 5px;
     color:#c8d8e4;
+    transition: .2s ease-in;
+}
+
+.backBtn:hover {
+    background-color: #53c8af;
+    color: aliceblue;
+    transition: .1s ease-in;
 }
 
 #addProductBtn {
@@ -30,6 +44,13 @@
     color: white;
     border-radius: 5px;
     height: 30px;
+    transition: .2s ease-out;
+}
+
+#addProductBtn:hover {
+    background-color: #53c8af;
+    box-shadow: 0 0 5px #52ab98;
+    transition: .2s ease-in;
 }
 
 #updateStockBtn {
@@ -38,6 +59,13 @@
     color: black;
     border-radius: 5px;
     height: 30px;
+    transition: .2s ease-out;
+}
+
+#updateStockBtn:hover {
+    background-color: #d4e4f1;
+    box-shadow: 0 0 5px #d4e4f1;
+    transition: .2s ease-in;
 }
 
 .addNewProduct {

@@ -14,15 +14,19 @@
 .featuresList {
     height: 45vh;
 }
-/* .spacer {
-    height: 15vh;
-} */
 
 .featureIcons {
     width: 150px;
     height: 150px;
     border-radius: 10px;
     border: 3px #52ab98 solid;
+    transition: .4s ease-out;
+}
+
+.featureIcons:hover {
+    border: 10px solid #52ab98;
+    box-shadow: 0 0 10px #62fbda;
+    transition: .2s ease-in;
 }
 
 .lakoimg {
@@ -31,6 +35,9 @@
 
 .lakop {
     margin: 0px;
+    font-size: 4rem;
+    letter-spacing: 1mm;
+    text-shadow: 0 0 8px rgb(187, 183, 183);
 }
 
 .badge {
